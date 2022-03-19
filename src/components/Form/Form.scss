@@ -1,0 +1,27 @@
+.input-form {
+    display: flex;
+    flex-direction: column;
+    input {
+      padding: 10px;
+      margin-bottom: 10px;
+      font-size: 16px;
+      font-weight: 600;
+      &.mouse-over {
+        background-color: #f1f1f1;
+      }
+    }
+    button {
+      padding: 10px;
+      background-color: cadetblue;
+      color:#fff;
+      font-size: 16px;
+      font-weight: 600;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      &:disabled {
+        background-color: #ddd;
+        color: #fff;
+        cursor: no-drop;
+      }
+    }
+  }

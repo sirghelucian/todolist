@@ -1,0 +1,19 @@
+.task {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    .descrizione {
+        &.fatto {
+            color: #f00;
+            text-decoration: line-through;
+        }
+    }
+    .data {
+        margin-right: 10px;
+    }
+    img {
+        height: 20px;
+        cursor: pointer;
+    }
+}
